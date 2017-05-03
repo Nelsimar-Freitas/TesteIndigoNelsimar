@@ -5,6 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteIndigoNelsimar", "TesteIndigoNelsimar\TesteIndigoNelsimar.csproj", "{6A94A166-2C4D-4617-840B-65C6C845AA02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Selenium", "Selenium", "{5AAA5A64-B537-4ADB-8289-891A57B2A465}"
+	ProjectSection(SolutionItems) = preProject
+		Selenium\chromedriver.exe = Selenium\chromedriver.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteIndigoNelsimarModel", "TesteIndigoNelsimarModel\TesteIndigoNelsimarModel.csproj", "{A64E3858-4BD5-432B-8900-2AD474557FB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{6A94A166-2C4D-4617-840B-65C6C845AA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A94A166-2C4D-4617-840B-65C6C845AA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A94A166-2C4D-4617-840B-65C6C845AA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64E3858-4BD5-432B-8900-2AD474557FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64E3858-4BD5-432B-8900-2AD474557FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64E3858-4BD5-432B-8900-2AD474557FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64E3858-4BD5-432B-8900-2AD474557FB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

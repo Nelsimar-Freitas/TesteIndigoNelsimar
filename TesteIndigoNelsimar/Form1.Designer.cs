@@ -1,6 +1,6 @@
 ﻿namespace TesteIndigoNelsimar
 {
-    partial class Form1
+    partial class frmTesteIndigo
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnTeste = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnTeste
+            // 
+            this.btnTeste.Location = new System.Drawing.Point(81, 12);
+            this.btnTeste.Name = "btnTeste";
+            this.btnTeste.Size = new System.Drawing.Size(117, 40);
+            this.btnTeste.TabIndex = 0;
+            this.btnTeste.Text = "Iniciar Teste";
+            this.btnTeste.UseVisualStyleBackColor = true;
+            this.btnTeste.Click += new System.EventHandler(this.btnTeste_Click);
+            // 
+            // frmTesteIndigo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(282, 63);
+            this.Controls.Add(this.btnTeste);
+            this.Name = "frmTesteIndigo";
+            this.Text = "Teste Automação";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnTeste;
     }
 }
 
